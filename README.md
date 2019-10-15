@@ -11,13 +11,13 @@ In order to run the tests:
 
 ## Example
 
-After installing Defect4J you can checkout a version corresponding to a given bug using the following instruction (see Defect4J's repository for further details). 
+After installing [Defect4j](https://github.com/rjust/defects4j) you can checkout a version corresponding to a given bug using the following instruction (see [Defect4j](https://github.com/rjust/defects4j)'s repository for further details). 
 
 For example with the following command:
 ```
 defects4j checkout -p Lang -v 1b -w /tmp/lang_1_buggy
 ```
-it is possible to checkout (in the ```/tmp/lang_1_buggy```folder) a buggy source code (bug 1) version of the commons lang system.
+it is possible to checkout (in the ```/tmp/lang_1_buggy``` folder) a buggy source code (bug 1) version of the commons lang system.
 
 In order to run the Field-Ready tests we need to copy the content of the folder:
 
